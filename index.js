@@ -1,1 +1,5 @@
-console.log('hello');
+module.exports = {
+    add(a, b) {
+        return a + b;
+    }
+};
